@@ -1,4 +1,9 @@
-export default {
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = {
   uri: process.env.MONGOOSEMODULE_URI || 'mongodb://localhost/modern-mean-dev',
   options: {
     //http://mongoosejs.com/docs/connections.html
