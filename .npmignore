@@ -4,3 +4,4 @@
 .gitignore
 gulpfile.babel.js
 src/
+tests/
