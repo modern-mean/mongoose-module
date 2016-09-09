@@ -5,3 +5,6 @@ bower_components/
 # Modern-MEAN app and assets
 .nyc_output/
 coverage/
+
+#Yeoman
+.yo-rc.json
