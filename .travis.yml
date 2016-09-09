@@ -15,7 +15,6 @@ services:
 
 before_install:
   - npm i nsp -g
-  - npm install gulpjs/gulp-cli -g
 
 after_script:
   - nsp audit-package
