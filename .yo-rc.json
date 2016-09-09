@@ -1,0 +1,20 @@
+{
+  "generator-github-create": {
+    "readme": {
+      "title": "mongoose-module",
+      "description": "Modern Mean module for managing MongoDB/Mongoose connection",
+      "usebadges": true,
+      "badges": [
+        "travis",
+        "coveralls",
+        "david",
+        "davidDev",
+        "gitter",
+        "npm"
+      ],
+      "profile": "modern-mean",
+      "repository": "mongoose-module",
+      "scoped": true
+    }
+  }
+}
