@@ -1,6 +1,6 @@
 {
   "name": "@modern-mean/mongoose-module",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Modern-Mean module for MongoDB via Mongoose",
   "keywords": "modern-mean,mongodb,mongo,mongoose,database",
   "main": "/dist/index.js",
