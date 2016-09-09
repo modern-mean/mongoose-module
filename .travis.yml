@@ -10,7 +10,7 @@ node_js:
   #allow_failures:
     #- node_js: 5
 
-#services:
+services:
   - mongodb
 
 before_install:
