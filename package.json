@@ -23,7 +23,7 @@
   },
   "author": "Andrew Throener",
   "dependencies": {
-    "@modern-mean/server-base-module": "0.0.13",
+    "@modern-mean/server-base-module": "~0.1.0",
     "mongoose": "^4.6.0"
   },
   "nyc": {

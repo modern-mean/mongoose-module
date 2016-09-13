@@ -21,11 +21,11 @@ var _mongoose2 = _interopRequireDefault(_mongoose);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-class MongooseModule extends _serverBaseModule.MMBase {
+class MongooseModule extends _serverBaseModule.BaseModule {
 
   constructor(...args) {
     //Push default configuration to front of array.  Passed in configuration from ...args should take precedence.
-    args.unshift({ MMConfig: _config2.default, MMLogger: _logger2.default });
+    args.unshift({ config: (0, _config2.default)(), logger: (0, _logger2.default)() });
     super(...args);
 
     this.config = this.getConfigModule().get();

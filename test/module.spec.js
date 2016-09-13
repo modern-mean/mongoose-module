@@ -29,7 +29,7 @@ describe('/src/module', () => {
 
     it('should call mongoose.set with debug if set', () => {
       let spy = sandbox.spy(mongoose, 'set');
-      moduleTest = new MongooseModule({ MMConfig: { debug: true } });
+      moduleTest = new MongooseModule({ config: { debug: true } });
       return spy.should.be.calledWith('debug', true);
     });
 
@@ -75,7 +75,7 @@ describe('/src/module', () => {
     describe('error', () => {
 
       it('should reject a promise', () => {
-        moduleTest = new MongooseModule({ MMConfig: { uri: 'testy' } });
+        moduleTest = new MongooseModule({ config: { uri: 'testy' } });
         return moduleTest.connect().should.eventually.be.rejected;
       });
 
