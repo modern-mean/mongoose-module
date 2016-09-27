@@ -4,3 +4,4 @@ npm-debug.log
 
 # Modern-MEAN app and assets
 coverage/
+dist/
